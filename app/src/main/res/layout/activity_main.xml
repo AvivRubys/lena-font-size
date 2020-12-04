@@ -13,21 +13,23 @@
         android:layout_centerInParent="true"
         android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/fontScale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/defaultFontScale"
+            android:textAlignment="center"
+            android:textSize="46sp" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Set font size"
-            android:textSize="36sp"/>
-
-        <EditText
-            android:id="@+id/fontScale"
-            android:layout_width="274dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="numberDecimal"
-            android:text="1.0"
-            android:textSize="36sp"/>
+            android:text="@string/set_font_size"
+            android:textAlignment="center"
+            android:textSize="36sp" />
     </LinearLayout>
 
 </RelativeLayout>

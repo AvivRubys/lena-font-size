@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Lena\'s Font Size Changer</string>
+    <string name="app_name">Font Size Changer</string>
+    <string name="defaultFontScale">1.0</string>
+    <string name="set_font_size">Set font size</string>
 </resources>

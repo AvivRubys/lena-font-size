@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         setFontScaleFromUI(this);
     }
 
+    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
